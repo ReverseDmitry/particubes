@@ -69,6 +69,15 @@ functions:
       samples:
           - code: |
               Pointer:Hide()
+    - name: "IsHidden"
+      description: |
+          Returns whether the [Pointer] is hidden (or shown).
+      samples:
+          - code: |
+              Pointer:Show()
+              Pointer:IsHidden() -- returns false
+              Pointer:Hide()
+              Pointer:IsHidden() -- returns true
 
 properties:
 
